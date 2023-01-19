@@ -1,0 +1,118 @@
+.jumbotron {
+    padding: 175px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    background-image: url("img/quran-aymene-bensetiti.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: #84D2C5;
+    padding: 5px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 15px;
+    color: #ffff;
+}
+
+.center {
+    text-align: center;
+}
+
+#content {
+    padding: 0 10%;
+    display: flex;
+}
+
+.featured {
+    width: 75%;
+    height: auto;
+    border-radius: 5%;
+    display: block;
+    margin: 30px auto;
+}
+
+#left {
+    width: 75%;
+}
+
+#right {
+    width: 25%;
+}
+
+#profil {
+    margin-top: 25px;
+    padding: 3%;
+}
+
+aside {
+    color: black;
+    background-color: #84D2C5;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.mypic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.utdi {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#myTable th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+#myTable a:link, a:visited {
+    background-color: darkred;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#yt {
+    color: darkred;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, #right, #left {
+        width: auto;
+        display: block;
+        padding: 0 1%;
+    }
+
+    .jumbotron {
+        padding: 10px;
+        width: auto;
+    }
+
+    nav {
+        padding: 3px;
+    }
+}
+
+span {
+    color: red;
+}
